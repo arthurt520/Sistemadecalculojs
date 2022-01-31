@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cálculo em JS</title>
+</head>
+<body>
+    <div class="container">
+        <div class ="calculadora">
+            <h3>Sistema para calcular</h3>
+            <label>Digite o primeiro número</label>
+            <input type="text" name="num1" id="num1">
+            <label>Sinal da operação:</label><input type="text" id="sinal" name="sinal">
+            <label>Digite o segundo número</label>
+            <input type="text" name="num2" id="num2">
+            
+            <input type="button" value="Calcular"onclick="calcular()">
+
+            <div id="res">
+                Resultado: 
+            </div>
+
+           
+        </div>
+
+        <div id="leg">
+            <h3>Legenda</h3>
+            <ul>
+                <li>Soma: ( + )</li>
+                <li>Subtração: ( - )</li>
+                <li>Multiplicação: ( * )</li>
+                <li>Divisão: ( / ) </li>
+            </ul>
+        </div>
+
+       
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

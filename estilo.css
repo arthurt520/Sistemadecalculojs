@@ -1,0 +1,46 @@
+body{
+    background:url("mat.jpg")
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:50vw;
+   
+}
+  .calculadora{
+    background:rgb(240, 216, 170);
+    border:2px dotted black;
+    height:300px;
+    width:200px;
+    margin:10px;
+    padding:40px;
+}
+
+.calculadora label, input{
+    margin:8px;
+}
+
+h3{
+    text-align: center;
+}
+#res{
+    /*background:rgb(240, 133, 151);*/
+    background: rgb(253, 239, 211);
+    padding:2px;
+    color:black;
+    font-weight:bold;
+    margin-top:5px;
+   
+}
+
+#sinal{
+    width:25px;
+    margin:10px;
+}
+#leg{
+    background-color: blanchedalmond;
+    border:1px solid gray;
+    padding: 10px;
+}
